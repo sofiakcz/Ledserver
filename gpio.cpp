@@ -29,7 +29,7 @@ void Gpio::set(int pin, int state)
     lgGpioWrite(m_handle, pin, state);
 }
 
-void Gpio::set(unsigned int pattern)
+void Gpio::set(int pattern)
 {
     // 1011
     // 0001

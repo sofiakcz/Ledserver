@@ -6,7 +6,7 @@
 const quint16 PORT = 1234;
 
 // Konfiguration GPIO Zusatzboard
-const QList<int> LEDS = {18, 23, 24, 25};
+const QList<int> LEDS = {25, 24, 23, 18};
 const int LFLAGS = 0;
 const int CHIP = 0;
 

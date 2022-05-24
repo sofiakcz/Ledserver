@@ -9,7 +9,7 @@ https://github.com/eneukirchner/Ledserver
 In dem dadurch erzeugten Ordner befindet sich das Projekt.
 
 ## Aufgabenstellung
-Modifiziere im vorgegebenen Programmgerüst nur das File `ledserver.cpp` so, dass ein Server (Konsolenprogramm)
+Modifiziere im vorgegebenen Programmgerüst **nur** das File `ledserver.cpp` so, dass ein Server (Konsolenprogramm)
 mit folgender Funktionalität entsteht:
 1. Nach dem Start soll der Server auf allen Interfaces auf Port 1234 empfangsbereit sein.
 2. Ablauf der Kommunikation Client-Server:
@@ -23,7 +23,9 @@ mit folgender Funktionalität entsteht:
     - Wenn der Client die Verbindung mit <key>Ctrl</key>+<key>C</key> abbricht, schaltet der Server alle LEDs aus
     und ist bereit für neue Client-Verbindungen.
 
-*Im Unterverzeichnis `bin` befindet sich ein lauffähiges Beispielprogramm.*
+*Tipps:
+- Verwende `QString` als Datentyp für die Nachricht, die das Programm vom Client empfängt.
+- Im Unterverzeichnis `bin` befindet sich ein lauffähiges Beispielprogramm.*
 
 ## Abgabe via Github
 **Ab 10 Minuten vor Schluss (wird angesagt). Frühere Abgaben werden nicht gewertet, spätere nach Abgabeschluss

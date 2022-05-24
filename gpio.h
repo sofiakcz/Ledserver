@@ -10,7 +10,7 @@ public:
     explicit Gpio(QObject *parent = nullptr);  // Constructor
     ~Gpio(); // Destructor
     void set(int pin, int state);
-    void set(unsigned int pattern); // 0b1010
+    void set(int pattern); // 0b1010
 
 signals:
 
