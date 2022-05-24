@@ -20,7 +20,7 @@ mit folgender Funktionalität entsteht:
     LEDs an (MSB = GPIO18, LSB = GPIO25). Andernfalls ignoriert er die Nachricht vom Client.
     - Solange der Client die Verbindung nicht trennt, sendet der Server erneut den Textstring
     `Bitte Zahl von 0 bis 15 eingeben: `
-    - Wenn der Client die Verbindung mit <kbd>Ctrl</kbd> <kbd>c</kbd> abbricht, schaltet der Server alle LEDs aus
+    - Wenn der Client die Verbindung mit <kbd>Strg</kbd> <kbd>c</kbd> abbricht, schaltet der Server alle LEDs aus
     und ist bereit für neue Client-Verbindungen.
 
 <em>Tipps:
