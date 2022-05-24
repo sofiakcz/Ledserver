@@ -14,13 +14,13 @@ mit folgender Funktionalität entsteht:
 1. Nach dem Start soll der Server auf allen Interfaces auf Port 1234 empfangsbereit sein.
 2. Ablauf der Kommunikation Client-Server:
     - Client verbindet sich mit dem Server: `nc localhost 1234`
-    - Server sendet zum Client den Textstring: `Bitte Zahl von 0 bis 15 eingeben: `.
+    - Server sendet zum Client den Textstring: `Bitte Zahl von 0 bis 15 eingeben: `
     - Client sendet eine passende Zahl.
     - Wenn die Zahl im erlaubten Bereich liegt, antwortet der Server mit `OK` und zeigt die Zahl im Dualcode über die
     LEDs an (MSB = GPIO18, LSB = GPIO25). Andernfalls ignoriert er die Nachricht vom Client.
     - Solange der Client die Verbindung nicht trennt, sendet der Server erneut den Textstring
-    `Bitte Zahl von 0 bis 15 eingeben: `.
-    - Wenn der Client die Verbindung mit <key>Ctrl</key>+<key>C</key> abbricht, schaltet der Server alle LEDs aus
+    `Bitte Zahl von 0 bis 15 eingeben: `
+    - Wenn der Client die Verbindung mit <kbd>Ctrl</kbd>+<kbd>C</kbd> abbricht, schaltet der Server alle LEDs aus
     und ist bereit für neue Client-Verbindungen.
 
 *Tipps:
