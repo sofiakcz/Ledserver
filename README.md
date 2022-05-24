@@ -23,9 +23,9 @@ mit folgender Funktionalität entsteht:
     - Wenn der Client die Verbindung mit <kbd>Ctrl</kbd>+<kbd>C</kbd> abbricht, schaltet der Server alle LEDs aus
     und ist bereit für neue Client-Verbindungen.
 
-*Tipps:
+<em>Tipps:
 - Verwende `QString` als Datentyp für die Nachricht, die das Programm vom Client empfängt.
-- Im Unterverzeichnis `bin` befindet sich ein lauffähiges Beispielprogramm.*
+- Im Unterverzeichnis `bin` befindet sich ein lauffähiges Beispielprogramm.</em>
 
 ## Abgabe via Github
 **Ab 10 Minuten vor Schluss (wird angesagt). Frühere Abgaben werden nicht gewertet, spätere nach Abgabeschluss
